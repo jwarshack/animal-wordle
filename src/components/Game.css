@@ -1,0 +1,31 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game__keyRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.game__keyBtn {
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #663300;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: url('../img/cursor.png'), auto;
+
+}
+
+.game__tileRow {
+  display: flex;
+}
+
